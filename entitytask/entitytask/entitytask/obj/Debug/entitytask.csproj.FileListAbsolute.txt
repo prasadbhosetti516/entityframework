@@ -1,0 +1,12 @@
+D:\entityframework\entitytask\entitytask\entitytask\bin\Debug\entitytask.exe.config
+D:\entityframework\entitytask\entitytask\entitytask\bin\Debug\entitytask.exe
+D:\entityframework\entitytask\entitytask\entitytask\bin\Debug\entitytask.pdb
+D:\entityframework\entitytask\entitytask\entitytask\bin\Debug\EntityFramework.dll
+D:\entityframework\entitytask\entitytask\entitytask\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\entitytask\entitytask\entitytask\bin\Debug\EntityFramework.xml
+D:\entityframework\entitytask\entitytask\entitytask\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\entitytask\entitytask\entitytask\obj\Debug\entitytask.Migrations.customer.resources
+D:\entityframework\entitytask\entitytask\entitytask\obj\Debug\entitytask.csproj.GenerateResource.Cache
+D:\entityframework\entitytask\entitytask\entitytask\obj\Debug\entitytask.csproj.CoreCompileInputs.cache
+D:\entityframework\entitytask\entitytask\entitytask\obj\Debug\entitytask.exe
+D:\entityframework\entitytask\entitytask\entitytask\obj\Debug\entitytask.pdb

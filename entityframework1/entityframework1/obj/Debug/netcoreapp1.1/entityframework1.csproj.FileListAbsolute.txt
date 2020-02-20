@@ -1,0 +1,7 @@
+D:\entityframework\entityframework1\entityframework1\bin\Debug\netcoreapp1.1\entityframework1.deps.json
+D:\entityframework\entityframework1\entityframework1\bin\Debug\netcoreapp1.1\entityframework1.runtimeconfig.json
+D:\entityframework\entityframework1\entityframework1\bin\Debug\netcoreapp1.1\entityframework1.runtimeconfig.dev.json
+D:\entityframework\entityframework1\entityframework1\bin\Debug\netcoreapp1.1\entityframework1.dll
+D:\entityframework\entityframework1\entityframework1\obj\Debug\netcoreapp1.1\entityframework1.csprojResolveAssemblyReference.cache
+D:\entityframework\entityframework1\entityframework1\obj\Debug\netcoreapp1.1\entityframework1.csproj.CoreCompileInputs.cache
+D:\entityframework\entityframework1\entityframework1\obj\Debug\netcoreapp1.1\entityframework1.AssemblyInfo.cs

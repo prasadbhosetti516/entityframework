@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirstEntity" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirstEntityContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Products" EntityType="ModelFirstEntity.Product" />
+    <EntitySet Name="Categories" EntityType="ModelFirstEntity.Category" />
+    <AssociationSet Name="fk_pr" Association="ModelFirstEntity.fk_pr">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="PId" />
+    </Key>
+    <Property Name="PId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pname" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Pprice" Type="Double" Nullable="false" />
+    <Property Name="Cid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="ModelFirstEntity.fk_pr" FromRole="Product" ToRole="Category" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Cid" />
+    </Key>
+    <Property Name="Cid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ctitle" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Products" Relationship="ModelFirstEntity.fk_pr" FromRole="Category" ToRole="Product" />
+  </EntityType>
+  <Association Name="fk_pr">
+    <End Type="ModelFirstEntity.Category" Role="Category" Multiplicity="1" />
+    <End Type="ModelFirstEntity.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Cid" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="Cid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

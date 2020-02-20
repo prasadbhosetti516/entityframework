@@ -1,0 +1,13 @@
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\bin\Debug\EntityFramework3.exe.config
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\bin\Debug\EntityFramework3.exe
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\bin\Debug\EntityFramework3.pdb
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\bin\Debug\EntityFramework.dll
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\bin\Debug\EntityFramework.xml
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\obj\Debug\EntityFramework3.csprojResolveAssemblyReference.cache
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\obj\Debug\EntityFramework3.csproj.CoreCompileInputs.cache
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\obj\Debug\EntityFramework3.exe
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\obj\Debug\EntityFramework3.pdb
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\obj\Debug\EntityFramework3.Migrations.initial.resources
+D:\entityframework\entitytask\EntityFramework3\EntityFramework3\obj\Debug\EntityFramework3.csproj.GenerateResource.Cache

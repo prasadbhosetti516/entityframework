@@ -1,0 +1,13 @@
+D:\entityframework\entity\entity\bin\Debug\entity.exe.config
+D:\entityframework\entity\entity\bin\Debug\entity.exe
+D:\entityframework\entity\entity\bin\Debug\entity.pdb
+D:\entityframework\entity\entity\bin\Debug\EntityFramework.dll
+D:\entityframework\entity\entity\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\entity\entity\bin\Debug\EntityFramework.xml
+D:\entityframework\entity\entity\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\entity\entity\obj\Debug\entity.csprojResolveAssemblyReference.cache
+D:\entityframework\entity\entity\obj\Debug\entity.csproj.CoreCompileInputs.cache
+D:\entityframework\entity\entity\obj\Debug\entity.exe
+D:\entityframework\entity\entity\obj\Debug\entity.pdb
+D:\entityframework\entity\entity\obj\Debug\entity.Migrations.CreateEmployee.resources
+D:\entityframework\entity\entity\obj\Debug\entity.csproj.GenerateResource.Cache

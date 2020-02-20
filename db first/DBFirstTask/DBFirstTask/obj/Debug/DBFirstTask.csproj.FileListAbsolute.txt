@@ -1,0 +1,11 @@
+D:\entityframework\db first\DBFirstTask\DBFirstTask\bin\Debug\DBFirstTask.exe.config
+D:\entityframework\db first\DBFirstTask\DBFirstTask\bin\Debug\DBFirstTask.exe
+D:\entityframework\db first\DBFirstTask\DBFirstTask\bin\Debug\DBFirstTask.pdb
+D:\entityframework\db first\DBFirstTask\DBFirstTask\bin\Debug\EntityFramework.dll
+D:\entityframework\db first\DBFirstTask\DBFirstTask\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\db first\DBFirstTask\DBFirstTask\bin\Debug\EntityFramework.xml
+D:\entityframework\db first\DBFirstTask\DBFirstTask\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\db first\DBFirstTask\DBFirstTask\obj\Debug\DBFirstTask.csprojResolveAssemblyReference.cache
+D:\entityframework\db first\DBFirstTask\DBFirstTask\obj\Debug\DBFirstTask.csproj.CoreCompileInputs.cache
+D:\entityframework\db first\DBFirstTask\DBFirstTask\obj\Debug\DBFirstTask.exe
+D:\entityframework\db first\DBFirstTask\DBFirstTask\obj\Debug\DBFirstTask.pdb

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bikes" EntityType="Model1.Bike" />
+    <EntitySet Name="Companies" EntityType="Model1.Company" />
+    <AssociationSet Name="fk_pp" Association="Model1.fk_pp">
+      <End Role="Bike1" EntitySet="Bikes" />
+      <End Role="Company1" EntitySet="Companies" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Bike">
+    <Key>
+      <PropertyRef Name="Bid" />
+    </Key>
+    <Property Name="Bid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Bname" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Bmodel" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Bprice" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Companies" Relationship="Model1.fk_pp" FromRole="Bike1" ToRole="Company1" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="Cid" />
+    </Key>
+    <Property Name="Cid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cname" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Clocation" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Bid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Bike" Relationship="Model1.fk_pp" FromRole="Company1" ToRole="Bike1" />
+  </EntityType>
+  <Association Name="fk_pp">
+    <End Type="Model1.Bike" Role="Bike1" Multiplicity="1" />
+    <End Type="Model1.Company" Role="Company1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bike1">
+        <PropertyRef Name="Bid" />
+      </Principal>
+      <Dependent Role="Company1">
+        <PropertyRef Name="Bid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

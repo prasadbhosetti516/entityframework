@@ -1,0 +1,11 @@
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\bin\Debug\DBfirstconsoleApp.exe.config
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\bin\Debug\DBfirstconsoleApp.exe
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\bin\Debug\DBfirstconsoleApp.pdb
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\bin\Debug\EntityFramework.dll
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\bin\Debug\EntityFramework.xml
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\obj\Debug\DBfirstconsoleApp.csprojResolveAssemblyReference.cache
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\obj\Debug\DBfirstconsoleApp.csproj.CoreCompileInputs.cache
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\obj\Debug\DBfirstconsoleApp.exe
+D:\entityframework\db first\DBfirstconsoleApp\DBfirstconsoleApp\obj\Debug\DBfirstconsoleApp.pdb

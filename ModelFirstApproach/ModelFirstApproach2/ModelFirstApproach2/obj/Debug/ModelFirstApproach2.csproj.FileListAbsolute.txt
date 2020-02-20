@@ -1,0 +1,11 @@
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\bin\Debug\ModelFirstApproach2.exe.config
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\bin\Debug\ModelFirstApproach2.exe
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\bin\Debug\ModelFirstApproach2.pdb
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\bin\Debug\EntityFramework.dll
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\bin\Debug\EntityFramework.xml
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\obj\Debug\ModelFirstApproach2.csprojResolveAssemblyReference.cache
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\obj\Debug\ModelFirstApproach2.csproj.CoreCompileInputs.cache
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\obj\Debug\ModelFirstApproach2.exe
+D:\entityframework\ModelFirstApproach\ModelFirstApproach2\ModelFirstApproach2\obj\Debug\ModelFirstApproach2.pdb

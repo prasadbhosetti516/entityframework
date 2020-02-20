@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Schools">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.School)">
+        <MappingFragment StoreEntitySet="Schools">
+          <ScalarProperty Name="Sid" ColumnName="Sid" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="Slocation" ColumnName="Slocation" />
+          <ScalarProperty Name="Stid" ColumnName="Stid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Student)">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="Stid" ColumnName="Stid" />
+          <ScalarProperty Name="Stname" ColumnName="Stname" />
+          <ScalarProperty Name="Stgender" ColumnName="Stgender" />
+          <ScalarProperty Name="Eid" ColumnName="Eid" />
+          <ScalarProperty Name="SchoolSid" ColumnName="SchoolSid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Course)">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+          <ScalarProperty Name="Cname" ColumnName="Cname" />
+          <ScalarProperty Name="Ccredits" ColumnName="Ccredits" />
+          <ScalarProperty Name="Subid" ColumnName="Subid" />
+          <ScalarProperty Name="ExamEid" ColumnName="ExamEid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Subject)">
+        <MappingFragment StoreEntitySet="Subjects">
+          <ScalarProperty Name="Subid" ColumnName="Subid" />
+          <ScalarProperty Name="Subname" ColumnName="Subname" />
+          <ScalarProperty Name="Rid" ColumnName="Rid" />
+          <ScalarProperty Name="CourseCid" ColumnName="CourseCid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Exams">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Exam)">
+        <MappingFragment StoreEntitySet="Exams">
+          <ScalarProperty Name="Eid" ColumnName="Eid" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="Examlocation" ColumnName="Examlocation" />
+          <ScalarProperty Name="Cid" ColumnName="Cid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Results">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Result)">
+        <MappingFragment StoreEntitySet="Results">
+          <ScalarProperty Name="Rid" ColumnName="Rid" />
+          <ScalarProperty Name="Resdesc" ColumnName="Resdesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="ExamStudent" TypeName="Model1.ExamStudent" StoreEntitySet="Students">
+      <EndProperty Name="Exam">
+        <ScalarProperty Name="Eid" ColumnName="Exam_Eid" />
+      </EndProperty>
+      <EndProperty Name="Student">
+        <ScalarProperty Name="Stid" ColumnName="Stid" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentResult" TypeName="Model1.StudentResult" StoreEntitySet="Students">
+      <EndProperty Name="Result">
+        <ScalarProperty Name="Rid" ColumnName="Result_Rid" />
+      </EndProperty>
+      <EndProperty Name="Student">
+        <ScalarProperty Name="Stid" ColumnName="Stid" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SubjectResult" TypeName="Model1.SubjectResult" StoreEntitySet="SubjectResult">
+      <EndProperty Name="Subject">
+        <ScalarProperty Name="Subid" ColumnName="Subjects_Subid" />
+      </EndProperty>
+      <EndProperty Name="Result">
+        <ScalarProperty Name="Rid" ColumnName="Results_Rid" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,11 @@
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\bin\Debug\Modelfirstschooltask.exe.config
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\bin\Debug\Modelfirstschooltask.exe
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\bin\Debug\Modelfirstschooltask.pdb
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\bin\Debug\EntityFramework.dll
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\bin\Debug\EntityFramework.xml
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\obj\Debug\Modelfirstschooltask.csprojResolveAssemblyReference.cache
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\obj\Debug\Modelfirstschooltask.csproj.CoreCompileInputs.cache
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\obj\Debug\Modelfirstschooltask.exe
+D:\entityframework\ModelFirstApproach\Modelfirstschooltask\Modelfirstschooltask\obj\Debug\Modelfirstschooltask.pdb

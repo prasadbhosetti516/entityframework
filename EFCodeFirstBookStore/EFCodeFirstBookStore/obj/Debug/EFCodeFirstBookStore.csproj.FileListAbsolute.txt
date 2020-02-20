@@ -1,0 +1,13 @@
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\bin\Debug\EFCodeFirstBookStore.exe.config
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\bin\Debug\EFCodeFirstBookStore.exe
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\bin\Debug\EFCodeFirstBookStore.pdb
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\bin\Debug\EntityFramework.dll
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\bin\Debug\EntityFramework.SqlServer.dll
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\bin\Debug\EntityFramework.xml
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\bin\Debug\EntityFramework.SqlServer.xml
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\obj\Debug\EFCodeFirstBookStore.csprojResolveAssemblyReference.cache
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\obj\Debug\EFCodeFirstBookStore.csproj.CoreCompileInputs.cache
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\obj\Debug\EFCodeFirstBookStore.exe
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\obj\Debug\EFCodeFirstBookStore.pdb
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\obj\Debug\EFCodeFirstBookStore.Migrations.BookDetails.resources
+D:\entityframework\EFCodeFirstBookStore\EFCodeFirstBookStore\obj\Debug\EFCodeFirstBookStore.csproj.GenerateResource.Cache

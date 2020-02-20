@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="664828b552ae4457a32300753c8a83a2" Name="Diagram1" >
+        <EntityTypeShape EntityType="ModelFirstEntity.Product" Width="1.5" PointX="3.125" PointY="1.875" />
+        <EntityTypeShape EntityType="ModelFirstEntity.Category" Width="1.5" PointX="6.375" PointY="2.125" />
+        <AssociationConnector Association="ModelFirstEntity.fk_pr" ManuallyRouted="true" >
+          <ConnectorPoint PointX="6.375" PointY="3.3482526041666665" />
+          <ConnectorPoint PointX="6.184425" PointY="3.3482526041666665" />
+          <ConnectorPoint PointX="6.184425" PointY="8.7336692708333334" />
+          <ConnectorPoint PointX="5.4420833333333336" PointY="8.7336692708333334" />
+          <ConnectorPoint PointX="5.4420833333333336" PointY="4.7440859374999995" />
+          <ConnectorPoint PointX="4.9197416666666669" PointY="4.7440859374999995" />
+          <ConnectorPoint PointX="4.9197416666666669" PointY="3.3482526041666665" />
+          <ConnectorPoint PointX="4.625" PointY="3.3482526041666665" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
